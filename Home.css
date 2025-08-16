@@ -1,4 +1,44 @@
- .u-section-1 {
+.u-section-0 {
+  background: linear-gradient(to right, #15803d, #65a30d); 
+  padding: 20px 0;
+}
+
+.u-section-0 .u-sheet-1 {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.u-section-0 .u-text-1 {
+  font-size: 1.25rem;
+  color: white;
+  margin: 0 0 8px;
+  font-family: inherit;
+  text-align: center;
+}
+
+.u-section-0 .u-link-1 {
+  font-size: 1.5rem;
+  font-family: inherit;
+  color: white;
+  text-decoration: underline;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.u-section-0 .u-link-1:hover {
+  color: #000000;
+}
+
+.u-section-1 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/images/with_books.JPG");
   background-position: 50% 50%;
 }
@@ -688,7 +728,13 @@
   .u-section-5 .u-image-4 {
     margin-right: 8px;
   }
-}.u-section-6 .u-sheet-1 {
+}
+
+.u-section-6 {
+  background: linear-gradient(to right, #15803d, #65a30d);
+}
+
+.u-section-6 .u-sheet-1 {
   min-height: 227px;
 }
 
@@ -723,4 +769,106 @@
   .u-section-6 .u-form-1 {
     width: 340px;
   }
+}
+
+.u-section-6 .u-btn-1 {
+  background-color: #006633;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-transform: none;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 15px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.u-section-7 {
+  padding: 60px 0;
+  items-center; 
+}
+
+.u-section-7 .u-sheet-1 {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.u-section-7 .u-text-1 {
+  font-size: 4rem; 
+  font-weight: 400; 
+  color: #65a30d;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.u-section-7 .u-group {
+  max-width: 600px;
+  margin: 0 auto 40px;
+  padding: 30px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.u-section-7 .u-text-2,
+.u-section-7 .u-text-4 {
+  color: #65a30d;
+  font-size: 2rem;
+  font-weight:400;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.u-section-7 .u-text-3,
+.u-section-7 .u-text-5 {
+  font-size: 1rem;
+  color: #333333;
+  text-align: center;
+}
+
+.u-section-7 .u-btn-1,
+.u-section-7 .u-btn-2 {
+  background-color: #006633;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-transform: none;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 15px;
+  border-radius: 6px;
+  text-align: center;
+  align-self:center; 
+}
+
+.u-section-7 .u-container-layout-1,
+.u-section-7 .u-container-layout-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.u-section-7 .u-form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.u-section-7 .u-form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.u-section-7 .u-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
 }
